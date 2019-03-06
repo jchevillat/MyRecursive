@@ -16,7 +16,6 @@ int main()
     for (int i=fact-1; i>0; i--) {
         total=total * i;
     }
-    printf("%d! = %d \n", fact, total);
     printf("%d! = %d \n", fact, factorial(fact));
     return 0;
 }
