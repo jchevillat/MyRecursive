@@ -12,6 +12,7 @@ int factorial(int f) {
 int main()
 {
     // a comment
+    // Add another comment
     int fact=4;
     int total=fact;
     for (int i=fact-1; i>0; i--) {
