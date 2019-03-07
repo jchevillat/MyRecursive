@@ -2,22 +2,17 @@
 #include <stdlib.h>
 
 int factorial(int f) {
-    int total=f;
-    for (int i=f-1; i>0; i--) {
-        total=total * i;
+    if (f == 1) {
+        return 1;
     }
-    return total;
+    return (f * factorial((f-1)));
 }
 
 int main()
 {
     // a comment
     // Add another comment
-    int fact=4;
-    int total=fact;
-    for (int i=fact-1; i>0; i--) {
-        total=total * i;
-    }
+    int fact=5;
     printf("%d! = %d \n", fact, factorial(fact));
     return 0;
 }
